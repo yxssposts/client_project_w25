@@ -1,0 +1,112 @@
+.skip a{
+    position: absolute;
+    top: -40px;
+	left: 10px;
+    background-color: lightblue;
+	padding: 10px 15px;
+	border-radius: 5px;
+	z-index: 2000;
+	display: block;
+	text-decoration: none;  
+}
+.skip a:focus{
+    top: 10px;
+	left: 10px;
+    border: 2px solid black;
+	background-color: lightyellow;
+
+}
+/*Add borders around the main components and some
+space too*/
+/* header, nav, main, footer{
+	border: 3px solid black;
+	margin: 10px 0;
+} */
+
+/* Step 1: Write selector/rule property to add an underline when
+links in the navigation are in the hover or focus state.*/
+nav a:hover, nav a:focus{
+    text-decoration-line: underline;
+}
+
+/* Step 3: Write selector/rule property to style all elements when in focus*/
+:focus{
+    border: 2px solid black;
+}
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%; 
+	font-size:125%; 
+	
+	
+}
+
+*{
+	/* display:grid; */
+	text-align:center;
+}
+
+ol{
+	list-style-position: inside;
+	text-align: center;
+	padding-left: 0;
+}
+
+nav{
+	width:100%;
+	position:sticky;
+	top: 0;
+	z-index: 1000;
+	padding: 0.5rem;
+	background-color: #ffff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+nav ul{
+	display:flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav ul li{
+	/* background-color: #ECFF4D; */
+	text-decoration: none;
+	padding:20px;
+	
+	/* border:1px solid black; */
+	border: #919fac 3.9px solid;
+    border-radius: 35px;
+	display: inline-block;
+	width: auto;
+	padding: 20px;
+	font-weight: bolder;
+	
+	/* align-content: space-between; */
+	
+}
+.section-container{
+	border: 2px solid #919fac; 
+    padding: 20px; 
+    border-radius: 20px; 
+    margin: 20px 0; 
+    background-color: #f9f9f9; 
+}
+
+/* .section-title {
+    text-align: center;
+    margin-bottom: 15px; 
+    font-size: 1.5em; 
+} */
+
+
+/* .container{
+	display:grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: auto;
+} */

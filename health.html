@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='css/html5reset.css'>
+    <link rel="stylesheet" type="text/css" href='css/style.css'>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href = "">Skip to Main Content</a>
+        <div class = "skip">
+            <a href = "#main" tabindex = "0" >Skip to Main Content</a>
+        </div> 
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -16,16 +20,19 @@
                 <li><a href = "community.html">Community Building</a></li>
             </ul>
         </nav>
-    <h1>Basic Needs and Health Support</h1>
-    <p>While it is important to stay on top of academics, it's also our top priority to ensure that UMSI students are supported through their overall wellbeing. </p>
+    <main class = "container" id = "main">
+        <div class="section-container">
+            <h1>Basic Needs and Health Support</h1>
+            <p>While it is important to stay on top of academics, it's also our top priority to ensure that UMSI students are supported through their overall wellbeing. </p>
+            <figure>
+                <img src="images/UMSI_Spring_2022_08.jpg" alt="A field of spring flowers in the Diag.">
+                <figcaption>A field of spring flowers in the Diag</figcaption>
+            </figure>
+        </div>
     </header>
-    <main>
-        <figure>
-            <img src="images/UMSI_Spring_2022_08.jpg" alt="A field of spring flowers in the Diag.">
-            <figcaption>A field of spring flowers in the Diag</figcaption>
-        </figure>
-                
-        <section>
+
+     
+        <div class="section-container">
             <h2>Mental Health</h2>
             <p>Maintaining your mental well-being is crucial for thriving in undergraduate school. Here are resources to support your mental health:</p>
             <article>
@@ -55,18 +62,14 @@
 
                 <p>This website provides information about specific fields, ensuring that there is available support for any student.</p>
             </article>
-        </section>
+        </div>  
 
-
-        
-        <h2><a href = "https://basicneeds.studentlife.umich.edu/">Basic Needs Website</a></h2>
-        <div>
-            <p>The Basic Needs gives student easy accesibility to a specific problem they are facing, regarding situations such as financial aid, health care, and food. </p>
-            
+        <div class="section-container">
+            <h2><a href = "https://basicneeds.studentlife.umich.edu/">Basic Needs Website</a></h2>
+            <p>The Basic Needs gives student easy accesibility to a specific problem they are facing, regarding situations such as financial aid, health care, and food. </p>    
         </div>
                 
       
-
     </main>
     <footer>
         <img src="images/UMSI_signature_informal_maize-blue.jpg" alt="UMSI Logo">

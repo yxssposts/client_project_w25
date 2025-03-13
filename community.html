@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='css/html5reset.css'>
+    <link rel="stylesheet" type="text/css" href='css/style.css'>
+
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href = "">Skip to Main Content</a>
+        <div class = "skip">
+            <a href = "#main" tabindex = "0" >Skip to Main Content</a>
+        </div>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -16,19 +21,23 @@
                 <li><a href = "community.html">Community Building</a></li>
             </ul>
         </nav>
-        <h1>Community Building</h1>
+        
     </header>
-    <main>
-        <p>There's more to school than studies, so it is just as important to know about the available opportunities that UMICH has to offer outside of the School of Information.</p>
-        <img src="images/UMSI_Festifall_09012022_09.JPG" alt="Festifall Photo">
-        <section>
-            <h2><a href = "https://campusinvolvement.umich.edu/article/join-student-organization">Organizations & Clubs</a></h2>
-            <p>Find your interests through the 1,700 organizations provided through the UMICH campus </p>
-        </section>
-        <section id="life-outside-classroom">
+    <main class = "container" id = "main">
+        <div class="section-container">
+            <h1>Community Building</h1>
+            <p>There's more to school than studies, so it is just as important to know about the available opportunities that UMICH has to offer outside of the School of Information.</p>
+            <img src="images/UMSI_Festifall_09012022_09.JPG" alt="Festifall Photo">
+            <section>
+                <h2><a href = "https://campusinvolvement.umich.edu/article/join-student-organization">Organizations & Clubs</a></h2>
+                <p>Find your interests through the 1,700 organizations provided through the UMICH campus </p>
+            </section>
+            <section id="life-outside-classroom">
+        </div>
+        <div class="section-container">
             <h2>Life Outside the Classroom</h2>
             <p>Undergraduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
-
+        
             <ul>
                 <li><strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.</li>
                 <li><strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.</li>
@@ -37,8 +46,9 @@
                 <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
             </ul>
         </section>
+        </div>
         
-        <section>
+        <div class="section-container">
             <h2>DEI Organizations</h2>
             <p>Want to connect more within your community? UMICH has organizations and communities open to all race and genders.</p>
             <article>
@@ -49,7 +59,7 @@
                 <h3><a href = "https://spectrumcenter.umich.edu/">Spectrum Center</a></h3>
             </article>
             <p>Outside of UMSI, UMICH provides a variety of resources for students to discover and expand their skills on different hobbies and interests. </p>
-        </section>
+        </div>
     </main>
     <footer>
         <img src="images/UMSI_signature_informal_maize-blue.jpg" alt="UMSI Logo">
