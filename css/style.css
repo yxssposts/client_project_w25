@@ -38,7 +38,7 @@ Make the font larger too.*/
 body{
 	margin:1%; 
 	font-size:125%; 
-	
+	line-height:2;
 	
 }
 
@@ -52,6 +52,12 @@ ol{
 	text-align: center;
 	padding-left: 0;
 }
+ul{
+	list-style-position: inside;
+	text-align: center;
+	padding-left: 0;
+}
+
 
 nav{
 	width:100%;
@@ -110,3 +116,4 @@ nav ul li{
 	grid-template-columns: 1fr 5fr;
 	grid-template-rows: auto;
 } */
+
