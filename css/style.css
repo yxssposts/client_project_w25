@@ -36,11 +36,28 @@ nav a:hover, nav a:focus{
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
 body{
+	background-color: rgb(62, 128, 216);
 	margin:1%; 
 	font-size:125%; 
 	line-height:2;
 	
 }
+
+h1 h2 h3{
+	margin-bottom:5px;
+}
+
+h1{
+	font-size: 1.5em;
+	display:block;
+}
+
+h2 {
+    font-size: 125%; 
+    margin-bottom: 8px;  
+}
+
+
 img{
 	max-width: 100%; 
     height: auto;   
@@ -58,11 +75,13 @@ ol{
 	list-style-position: inside;
 	text-align: center;
 	padding-left: 0;
+	
 }
 ul{
 	list-style-position: inside;
 	text-align: center;
 	padding-left: 0;
+	
 }
 
 
@@ -72,17 +91,23 @@ nav{
 	top: 0;
 	z-index: 1000;
 	padding: 0.5rem;
-	background-color: #ffff;
+	background-color: rgb(62, 128, 216);
 	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	
 
 }
-
+nav a{
+	color: rgb(234, 234, 236);
+	text-decoration: none;
+}
+	
 nav ul{
 	display:flex;
 	flex-wrap: wrap;
-	gap: 0.5rem;
+	gap: 1.5rem;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 /*Change the styling for all of the list 
@@ -93,22 +118,28 @@ nav ul li{
 	padding:20px;
 	
 	/* border:1px solid black; */
-	border: #919fac 3.9px solid;
+	border: #a9c3dc 3.9px solid;
     border-radius: 35px;
 	display: inline-block;
 	width: auto;
-	padding: 20px;
 	font-weight: bolder;
 	
 	/* align-content: space-between; */
 	
 }
+
 .section-container{
 	border: 2px solid #919fac; 
     padding: 20px; 
     border-radius: 20px; 
     margin: 20px 0; 
-    background-color: #f9f9f9; 
+    background-color: lightblue; 
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer a{
+	color:rgb(43, 24, 65);
+	font-weight: bolder;
+	text-decoration: none;
 }
 
 /* .section-title {
