@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href='css/html5reset.css'>
     <link rel="stylesheet" type="text/css" href='css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&amp;display=swap" rel="stylesheet">
 
 
     <title>Student Success Portal</title>
@@ -33,7 +34,7 @@
 
     </header>
     <main class = "container" id = "main">
-        <section class="section-container">
+        <section class="first section-container">
             <h2>Welcome to the UMSI Undegrad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Undergraduate School Success</p>
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
@@ -45,17 +46,20 @@
                 <li>Emergency Contacts</li>
             </ol>
         </section>
-        <section class="section-container">
+        <section class = img>
+            <img src="images/MSI_Campus.JPG"  alt="The Diag during the spring time" tabindex = "0" class= "adjust">
+        </section>
+        <section class="second section-container">
             <h2>Events</h2>
             <p>Want to know about any recent events occuring? Check out the events from Happening @ Michigan.:</p>
             <h2><a href="https://events.umich.edu/">Happening @ Michigan</a></h2>
 
-            <img src="images/MSI_Campus.JPG"  alt="The Diag during the spring time" tabindex = "0">
+    
             <figcaption>The Diag at the UMSI Campus Tour</figcaption>
 
             <p>The University of Michigan offers numerous opportunities to help you learn about guest speakers and community events so that you're always up to date!</p>
         </section>
-        <section class="section-container">
+        <section class="third section-container">
             <article>
                 <h2>Emergency Contacts</h2>
                 <p>Need access to an urgent hotline? Check out these emergency contacts:</p>
@@ -84,6 +88,10 @@
     <footer>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <p> BSI Academic Advising | <a href="https://sites.google.com/umich.edu/bsiacademicadvising/home?authuser=0">UMSI Academic Advising </a></p>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
