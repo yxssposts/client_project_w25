@@ -291,4 +291,10 @@ footer a{
 		font-size: 3vw;
 		margin-top:20px;
 
+
+	}
+	
+	.error-footer {
+		margin-top:20px;
+		padding-top:40px;
 	}

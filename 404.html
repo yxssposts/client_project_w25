@@ -7,11 +7,39 @@
     <link rel="stylesheet" type="text/css" href='css/style.css'>
     <title>404 page</title>
 </head>
+
+<header>
+    <div class = "skip">
+        <!-- how to skip to next heading? -->
+        <a href = "#main" tabindex = "0" >Skip to Main Content</a>
+    </div> 
+    
+    <!-- <a href = "" tabindex = "0">Skip to Main Content</a> -->
+    
+    <nav>
+        
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "ac_resources.html">Academic Resources</a></li>
+            <li><a href = "health.html">Basic Needs and Health</a></li>
+            <li><a href = "community.html">Community Building</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <div class = "error-page">
         <h1>Oops!</h1>
         <h2> 404 - Page not Found </h2>
         <button>Go To Homepage</button> 
     </div>
+        
+    <footer class = "error-footer">
+        
+        <p> BSI Academic Advising | <a href="https://sites.google.com/umich.edu/bsiacademicadvising/home?authuser=0">UMSI Academic Advising </a></p>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
